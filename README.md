@@ -3,26 +3,28 @@ Para visualizar todos os gráficos desta análise de forma dinâmica (filtros, z
 https://marcostheuss.github.io/projeto2-cartao-de-credito-cancelamentos/
 
 
-# Projeto 2: Análise de Cancelamento de Cartão de Crédito
+Projeto 2: Análise de Cancelamento de Cartão de Crédito
 
-## 🔎 Insights Extraídos da Análise
+Nesse segundo projeto, eu peguei uma base de dados de cartões de crédito para entender por que as pessoas cancelam o serviço. Tentei mapear o que o cliente faz antes de decidir sair, olhando principalmente o uso do cartão e as reclamações no suporte.
 
-* **Quantidade de Produtos:** Quanto mais produtos contratados um cliente possui, menor a chance de cancelamento.
-* **Uso do Cartão:** Clientes que realizam mais de 80 transações em 12 meses possuem taxa de cancelamento próxima de 0%.
-* **Volume Financeiro:** Quanto maior o valor transacionado, maior a fidelidade do cliente.
-* **Contatos no Suporte:** Clientes que entram em contato mais de 4 vezes entram na zona crítica. Se atingirem 6 contatos, o cancelamento é de 100%.
+##  O que eu percebi na análise
 
-## 💡 Recomendações Estratégicas
+* **Quantidade de Produtos:** Notei que quanto mais serviços o cliente tem com o banco, menos ele pensa em cancelar.
+* **Uso do Cartão:** Quem usa bastante o cartão (mais de 80 vezes por ano) quase nunca cancela.
+* **Volume Financeiro:** Clientes que gastam valores maiores costumam ser mais fiéis.
+* **Contatos no Suporte:** Esse foi o ponto principal. Se o cliente ligar mais de 4 vezes para reclamar ou tirar dúvidas, o risco de ele sair é gigante. Com 6 ligações, o cancelamento é certo.
 
-1.  **Cross-selling:** Criar incentivos para que os clientes contratem novos produtos da instituição.
-2.  **Estímulo de Uso:** Oferecer benefícios (pontos em dobro ou cashback) para clientes que estão abaixo de 80 transações anuais.
-3.  **Régua de Relacionamento:** Monitorar clientes que usam pouco o cartão e oferecer estímulos extras para que o cartão não fique inativo.
-4.  **Alerta de Atrito:** Implementar um fluxo de retenção prioritário para clientes que ligarem pela 3ª vez para o suporte.
+##  Ideias para resolver isso
 
-## 🛠️ Tecnologias Utilizadas
+1.  **Oferecer mais serviços:** Tentar fazer o cliente usar mais de um produto do banco para ele criar um vínculo maior.
+2.  **Incentivar o uso:** Criar alguma promoção ou vantagem para quem usa pouco o cartão, tentando fazer ele chegar nas 80 transações.
+3.  **Acompanhar quem usa pouco:** Ficar de olho em quem deixou o cartão na gaveta e mandar um agrado ou oferta para ele voltar a usar.
+4.  **Cuidado com o suporte:** Se o cliente ligar pela 3ª vez, o banco já precisa resolver o problema dele de vez para ele não chegar na 4ª ligação e desistir.
 
-* **Python:** Linguagem base para ciência de dados.
-* **Pandas:** Utilizado para limpeza e tratamento da base de dados.
-* **Plotly Express:** Biblioteca usada para criar os gráficos interativos.
-* **GitHub Pages:** Hospedagem pública do projeto em HTML.
-* **Google Colab:** Plataforma utilizada para o desenvolvimento do código.
+##  Ferramentas que usei
+
+* **Python:** Usei para fazer toda a parte lógica e as contas.
+* **Pandas:** Usei para organizar a planilha e limpar o que não servia.
+* **Plotly Express:** Foi o que usei para criar os gráficos que mudam quando você passa o mouse.
+* **GitHub Pages:** Onde hospedei o site com o gráfico para todo mundo ver.
+* **Google Colab:** Foi o meu "caderno" para escrever e testar o código.
