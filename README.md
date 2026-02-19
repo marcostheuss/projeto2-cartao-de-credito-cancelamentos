@@ -26,5 +26,5 @@ Nesse segundo projeto, eu peguei uma base de dados de cartões de crédito para 
 * **Python:** Usei para fazer toda a parte lógica e as contas.
 * **Pandas:** Usei para organizar a planilha e limpar o que não servia.
 * **Plotly Express:** Foi o que usei para criar os gráficos que mudam quando você passa o mouse.
-* **GitHub Pages:** Onde hospedei o site com o gráfico para todo mundo ver.
-* **Google Colab:** Foi o meu "caderno" para escrever e testar o código.
+* **GitHub Pages:** Onde hospedei o site com o gráfico para todo mundo ver, pois no github não deixa colocar graficos interativos, tem que ser pelo github pages.
+* **Google Colab:** Foi aonde criei e testei o código.
